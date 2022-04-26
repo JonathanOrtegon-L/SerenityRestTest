@@ -1,7 +1,7 @@
 Feature: Operaciones empleados example
 #if the scenario fails the consumption of the @after throws the exception
 
-  @run
+  @runtest
   Scenario: Consulta empleados
     When un tester consulta empleados
     Then puede recuperar la información de los empleados
